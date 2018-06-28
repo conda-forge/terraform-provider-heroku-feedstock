@@ -14,14 +14,16 @@ Summary: The Terraform Heroku provider
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terraform-provider-heroku-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/terraform-provider-heroku-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/terraform-provider-heroku-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terraform-provider-heroku-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terraform-provider-heroku-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terraform-provider-heroku-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/terraform-provider-heroku-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/terraform-provider-heroku-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/terraform-provider-heroku-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/terraform-provider-heroku-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-heroku-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/terraform-provider-heroku-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-heroku/badges/version.svg)](https://anaconda.org/conda-forge/terraform-provider-heroku)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-heroku/badges/downloads.svg)](https://anaconda.org/conda-forge/terraform-provider-heroku)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-terraform--provider--heroku-green.svg)](https://anaconda.org/conda-forge/terraform-provider-heroku) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/terraform-provider-heroku.svg)](https://anaconda.org/conda-forge/terraform-provider-heroku) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/terraform-provider-heroku.svg)](https://anaconda.org/conda-forge/terraform-provider-heroku) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/terraform-provider-heroku.svg)](https://anaconda.org/conda-forge/terraform-provider-heroku) |
 
 Installing terraform-provider-heroku
 ====================================
