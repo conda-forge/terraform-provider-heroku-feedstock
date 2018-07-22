@@ -18,7 +18,7 @@ source:
   sha256: 49e5021ca1ff68a046e099fd949c8a8d1e21a58340d998a6ec3d329da63d8686  # [win64]
 
 build:
-  number: 0
+  number: 1
   script:
     - XCOPY {{ x4_plugin }}.exe %LIBRARY_BIN%  # [win]
 
