@@ -1,5 +1,5 @@
 {% set provider = "Heroku" %}
-{% set version = "1.3.0" %}
+{% set version = "1.5.0" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
@@ -11,13 +11,13 @@ package:
 source:
   - folder: src/github.com/terraform-providers/{{ name|lower }}
     url: https://github.com/terraform-providers/{{ name }}/archive/v{{ version }}.tar.gz  # [not win]
-    sha256: 079bf7fdf6d754bcab186dde5bb9fb0c2c5ef44c6c236f7d6aeb0bfffc3e9971  # [not win]
+    sha256: 3c4e50f30cc3e24fd8fd4ba79bb2443f8b8982569c2cda75c3a84553a45966c7  # [not win]
 
     url: https://releases.hashicorp.com/{{ name }}/{{ version }}/{{ name }}_{{ version }}_windows_amd64.zip  # [win64]
-    sha256: 815ab5b4ff47c017696246fe81d900ba534e079f4aa4a81cb852db614bf78580  # [win64]
+    sha256: 7f916de405b667e34d925afa68f36ef5cf73e5476cfc5b42405fcf483a899356  # [win64]
 
 build:
-  number: 1000
+  number: 0
   script:
     - XCOPY src\github.com\terraform-providers\{{ name|lower }}\{{ x4_plugin }}.exe %LIBRARY_BIN%  # [win]
 
