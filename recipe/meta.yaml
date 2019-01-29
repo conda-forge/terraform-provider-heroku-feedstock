@@ -1,6 +1,6 @@
 {% set provider = "Heroku" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "1.7.2" %}
+{% set version = "1.7.3" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('src/'+goname).replace("/",os.sep) %}
@@ -14,7 +14,7 @@ package:
 source:
   - folder:  {{ pkg_src }}
     url: https://{{ goname }}/archive/v{{ version }}.tar.gz  # [not win]
-    sha256: 1e656ef5438d488956a317c85422748c65855f3e71bb7256b41873117e359112  # [not win]
+    sha256: 5bc973643e1dbd6a27df20f30fb14e7b8722f010e2df552ebb28a9da2fd0330a  # [not win]
     git_url: https://{{ goname }}  # [win]
     git_tag: v{{ version }}  # [win]
 
