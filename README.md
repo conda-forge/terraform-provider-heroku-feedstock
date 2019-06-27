@@ -157,5 +157,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@agcopenhaver](https://github.com/agcopenhaver/)
 * [@sodre](https://github.com/sodre/)
 
